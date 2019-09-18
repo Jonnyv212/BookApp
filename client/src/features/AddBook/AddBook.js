@@ -7,7 +7,7 @@ import { connect } from 'react-redux'
 import {lifecycle, compose, withState} from 'recompose'
 import { fetchBookData } from "../../redux/actions/DataActions";
 
-
+ 
 const AddBook = ({authorState, inputValues, setInputValues, fetchBooks}) => {
 
   //Wrap these input functions
